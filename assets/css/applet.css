@@ -1,0 +1,9 @@
+/* Adjusts all applet related elements to 0px after being added to the DOM,
+Internet Explorer has an issue with initializing the applet to 0px. */
+#app-main-container,
+#app-main-error,
+#app-main-app,
+#app-main {
+    height: 0px;
+    width: 0px;
+}

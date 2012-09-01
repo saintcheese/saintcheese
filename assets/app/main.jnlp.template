@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="main.jnlp">
+	<information>
+		<title>saintcheeseMain</title>
+		<vendor>spiritualhobo</vendor>
+		<description>Latest in high-tech trollography.</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+		<j2se version="1.7+" java-vm-args="-Xms{0}m -Xmx{1}m" initial-heap-size="{0}m" max-heap-size="{1}m" href="http://java.sun.com/products/autodl/j2se"/>
+		<jar href="main.jar" download="eager"/>
+	</resources>
+	<applet-desc name="saintcheeseMain" main-class="com.javafx.main.NoJavaFXFallback" width="1" height="1">
+		<param name="requiredFXVersion" value="2.2+"/>
+	</applet-desc>
+	<jfx:javafx-desc name="saintcheeseMain" main-class="com.saintcheese.Saintcheese" width="1" height="1"/>
+	<update check="always"/>
+</jnlp>
